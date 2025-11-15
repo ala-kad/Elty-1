@@ -1,0 +1,13 @@
+main {
+  display: block;
+  margin: auto;
+}
+.myBtn {
+  background-color: #FFCE22;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  margin: auto;
+  width: 340px;
+  height: 40px;
+}
