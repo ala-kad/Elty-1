@@ -102,4 +102,8 @@ main {
   justify-content: space-between;
 }
 
+hr {
+  color: #CDCDCD;
+  width: 340px;
+  border: solid 0.7px #CDCDCD;
 }
