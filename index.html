@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,20 +9,51 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="reset.css">
 </head>
+
 <body>
-  <header>
-    <h1>First Test Assignment</h1>
-  </header>
-
-  <main>
-    <p>Welcome — replace this content with your project.</p>
-    <button class="myBtn">Done !</button>
-  </main>
-
-  <footer>
-    <small>&copy; 2025</small>
-  </footer>
-
+  <div class="box">
+    <div class="spacer">
+      <label for="check-1" class="item container">
+        <input id="check-1" name="pages" type="checkbox" class="myCheckbox>">
+        <span class="checkmark"></span>
+        All pages
+      </label>
+    </div>
+    <hr>
+    <div class="spacer">
+      <div class="spacer">
+        <label for="page1" class="item container">
+          <input id="page1" type="checkbox" class="myCheckbox>">
+          <span class="checkmark"></span>
+          Page 1
+        </label>
+      </div>
+      <div class="spacer">
+        <label for="page2" class="item container">
+          <input id="page2" type="checkbox" class="myCheckbox>">
+          <span class="checkmark"></span>
+          Page 2
+        </label>
+      </div>
+      <div class="spacer">
+        <label for="page3" class="item container">
+          <input id="page3" type="checkbox" class="myCheckbox>">
+          <span class="checkmark"></span>
+          Page 3
+        </label>
+      </div>
+      <div class="spacer">
+        <label for="page4" class="item container">
+          <input id="page4" type="checkbox" class="myCheckbox>">
+          <span class="checkmark"></span>
+          Page 4
+        </label>
+      </div>
+    </div>
+    <hr>
+    <button class="myBtn">Done</button>
+  </div>
   <script src="script.js" defer></script>
 </body>
+
 </html>
