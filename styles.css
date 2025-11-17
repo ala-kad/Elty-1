@@ -1,8 +1,6 @@
-main {
-  display: block;
-  margin: auto;
-}
-
+/* 
+Main Box Styling
+*/
 .box {
   width: 370px;
   height: 326px;
@@ -17,6 +15,9 @@ main {
   padding: 16px;
 }
 
+/* 
+Button Styling
+*/
 .myBtn {
   background-color: #FFCE22;
   text-align: center;
@@ -31,6 +32,10 @@ main {
 .myBtn:hover {
   background-color: #FFD84D;
 }
+
+/* 
+Checkbox Styling
+*/
 
 /* The container */
 .container {
@@ -66,6 +71,10 @@ main {
   border: #000;
 } */
 
+.container:hover input ~ .checkmark::after {
+  display: block;
+} 
+
 /* When the checkbox is checked, add a blue background */
 .container input:checked ~ .checkmark {
   background-color: #2196F3;
@@ -96,17 +105,26 @@ main {
   transform: rotate(45deg);
 }
 
+/* 
+Pages items Styling
+*/
 .item {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+/* 
+Spacing
+*/
 .spacer {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
+/* 
+Horizontal Rule Styling
+*/
 hr {
   color: #CDCDCD;
   width: 340px;
