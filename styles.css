@@ -15,9 +15,6 @@ Main Box Styling
   padding: 16px;
 }
 
-/* 
-Button Styling
-*/
 .myBtn {
   background-color: #FFCE22;
   text-align: center;
@@ -71,9 +68,10 @@ Checkbox Styling
   border: #000;
 } */
 
-.container:hover input ~ .checkmark::after {
+/* .container input:hover ~ .checkmark::after {
   display: block;
-} 
+  border: solid gray;
+}  */
 
 /* When the checkbox is checked, add a blue background */
 .container input:checked ~ .checkmark {
@@ -103,6 +101,15 @@ Checkbox Styling
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+/* 
+Pages items Styling
+*/
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* 
